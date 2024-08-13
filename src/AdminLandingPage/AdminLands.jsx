@@ -9,6 +9,7 @@ const AdminLands = () => {
       <Navbarad/>
        
        <div>
+       <h1 style={{ textAlign: 'center', color: '#e75450', fontFamily: 'Georgia',marginTop:'30px' }}>Hello Admin!!!</h1>
         <h1 style={{textAlign:'center',color:'#e75450',fontFamily:"Georgia",marginTop:"30px"}}>A Warm Welcome By EduBasedTN</h1>
        <img src="https://thecsrjournal.in/wp-content/uploads/2024/03/Government-school.jpg" alt="Loading" className='landingImage'/> 
        </div>

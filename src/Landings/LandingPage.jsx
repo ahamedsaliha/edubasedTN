@@ -14,7 +14,7 @@ const LandingPage = () => {
 
        
        <div>
-        
+        <h1 style={{ textAlign: 'center', color: '#e75450', fontFamily: 'Georgia',marginTop:'30px' }}>Hi Students!!!</h1>
        <h1 style={{ textAlign: 'center', color: '#e75450', fontFamily: 'Georgia',marginTop:'30px' }}>A Warm Welcome By EduBasedTN</h1>
 
        <img src="https://thecsrjournal.in/wp-content/uploads/2024/03/Government-school.jpg" alt="Loading" className='landingImage'/> 
@@ -45,7 +45,7 @@ const LandingPage = () => {
         </div>
     </div>
       <h1 style={{textAlign:'center', fontFamily:"roboto",color:'lightcoral'}}>SCHEMES</h1>
-    <div className="main-container">
+    <div className="main-container">   
       <div className="grid-container">
         <div className="grid-item img-cont">
           <img src="https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2019/10/11/Pictures/a-file-photo-of-mid-day-meal_de971f58-ec49-11e9-a1fd-918c38724d55.jpg" alt="description1" className='img'/>

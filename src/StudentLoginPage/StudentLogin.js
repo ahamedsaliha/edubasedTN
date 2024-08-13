@@ -22,10 +22,13 @@ const StudentLogin = () => {
             if (response.status === 200) {
                 // Handle successful login based on user role
                 if (email.endsWith('.stu@gmail.com')) {
+                    alert("Login Successfully")
                     navigate('/LandingPage');
                 } else if (email.endsWith('.stf@gmail.com')) {
+                    alert("Login Successfully")
                     navigate('/StaffLanding');
                 } else if (email.endsWith('.admin@gmail.com')) {
+                    alert("Login Successfully")
                     navigate('/AdminLands');
                 } else {
                     setMessage('Invalid email or password');
